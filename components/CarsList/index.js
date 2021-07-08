@@ -4,7 +4,7 @@ import styles from "./styles";
 import cars from "./cars"
 import CarItem from "../CarItem";
 
-const CarsList = (props ) => {
+const CarsList = (props) => {
     return (
         <View style={styles.container}>
             <FlatList data={cars} renderItem={({item}) => <CarItem car={item}/>}
